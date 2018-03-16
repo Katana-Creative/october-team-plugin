@@ -1,0 +1,13 @@
+columns:
+    name:
+        label: Name
+        type: text
+        sortable: false
+    role:
+        label: Role
+        type: text
+        sortable: false
+    id:
+        label: Order
+        type: number
+        sortable: true

@@ -1,0 +1,10 @@
+name: Team
+modelClass: Katana\Team\Models\Team
+form: $/katana/team/models/team/fields.yaml
+defaultRedirect: katana/team/team
+create:
+    redirect: 'katana/team/team/update/:id'
+    redirectClose: katana/team/team
+update:
+    redirect: katana/team/team
+    redirectClose: katana/team/team

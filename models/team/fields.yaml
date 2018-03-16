@@ -1,0 +1,43 @@
+fields:
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    role:
+        label: Statement
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    long_desc:
+        label: 'Profile Biography'
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    short_desc:
+        label: 'Short Bio'
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    image:
+        label: 'Profile Image'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    qualifications:
+        label: Qualifications
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    linkedin:
+        label: LinkedIn
+        oc.commentPosition: ''
+        span: auto
+        type: text

@@ -1,0 +1,11 @@
+plugin:
+    name: 'katana.team::lang.plugin.name'
+    description: 'katana.team::lang.plugin.description'
+    author: Katana
+    icon: oc-icon-group
+    homepage: ''
+navigation:
+    Team:
+        label: Team
+        url: katana/team/team
+        icon: icon-group
